@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(193, 217, 239);
+}
+
+#navbar>div{
+    margin: 10px;
+}
+
+#menu{
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto);
+    margin: auto;
+    gap: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+#menu>div>img{
+    width: 370px;
+    height: 250px;
+}
+
+#menu>div{
+    border: 1px solid black;
+}
+
+
+
